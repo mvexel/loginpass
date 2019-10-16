@@ -23,6 +23,7 @@ from .yandex import Yandex
 from .twitch import Twitch
 from .vk import VK
 from .orcid import ORCiD
+from .openstreetmap import OpenStreetMap
 
 
 OAUTH_BACKENDS = [
