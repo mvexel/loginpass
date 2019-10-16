@@ -29,7 +29,7 @@ from .openstreetmap import OpenStreetMap
 OAUTH_BACKENDS = [
     BattleNet, Twitter, Facebook, Google, GitHub, Dropbox, Instagram, Reddit,
     Gitlab, Slack, Discord, StackOverflow, Bitbucket, Strava, Spotify, Yandex,
-    Twitch, VK,
+    Twitch, VK, OpenStreetMap,
 ]
 
 __all__ = [
@@ -56,6 +56,7 @@ __all__ = [
     'Twitch',
     'VK',
     'ORCiD',
+    'OpenStreetMap'
     'OAUTH_BACKENDS',
 ]
 
